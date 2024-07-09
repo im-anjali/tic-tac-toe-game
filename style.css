@@ -1,0 +1,93 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #563D81;
+    text-align: center;
+}
+.cont{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem black;
+    font-size: 8vmin;
+    color: #5b3949;
+    background-color: #f0aecc;
+}
+#reset{
+    padding: 1rem;
+    font-size:1.25rem ;
+    background-color: #d42677;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -50%;;
+}
+#reset:hover{
+    background-color: #ce7ca2;
+    box-shadow: 0 0 1rem black;
+}
+.box:hover{
+    background-color: antiquewhite;
+    
+}
+.msg{
+    color: aliceblue;
+    font-size: 5vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+}
+#newgame{
+    padding: 0.5rem;
+    font-size:1.25rem ;
+    background-color: #d42677;
+    border: 3px solid black;
+    border-radius: 10px;
+     margin-top: 50px;
+   
+}
+#newgame:hover{
+    background-color: #ce7ca2;
+    box-shadow: 0 0 1rem black;
+}
+.hide{
+    display: none;
+}
+h1{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quby-hide {
+    display: none;
+}
+#qubyGif{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    #reset {
+        font-size: 1rem;
+        padding: 0.75rem;
+        margin-top: -30vh; /* Adjust margin to reduce the gap */
+       
+    }
+
+    .game {
+        margin-top: 0.5rem; /* Adjust margin for the game grid */
+    }
+}

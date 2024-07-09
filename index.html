@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1 style="color: aliceblue;">Tic-tac-toe</h1>
+        <!-- Add audio element for background music -->
+        <img id="qubyGif" src="quby.gif" alt="Quby GIF" class="quby-hide">
+        <audio id="backgroundMusic" autoplay loop>
+            <source src="gameaudio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="msgcont hide">
+            <div class="winner">
+                <p class="msg">Winner</p>
+                <button id="newgame">New Game</button>
+                
+            </div>
+            
+        </div>
+        <div class="cont">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset">Reset Game</button>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
